@@ -450,7 +450,8 @@ nav .nav-top a:hover {
 }
 
 @media (max-width: 1200px) {
-  nav .nav-top .address {
+  nav .nav-top .address,
+  nav .nav-top .mail {
     display: none;
   }
   nav .nav-top .container {

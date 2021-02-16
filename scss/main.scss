@@ -273,7 +273,8 @@ nav {
         }
 
         @media (max-width: 1200px) {
-            .address {
+            .address,
+            .mail {
                 display: none;
             }
 
@@ -1301,8 +1302,6 @@ header {
         }
 
         a {
-
-
             &:hover {
                 .shadow {
                     opacity: 1;
@@ -1486,7 +1485,7 @@ header {
             text-align: center;
         }
 
-        .msg{
+        .msg {
             max-width: initial;
         }
     }
@@ -1533,8 +1532,8 @@ header {
         .msg {
             margin-bottom: 30px;
 
-            .msg-body{
-                margin-bottom:40px;
+            .msg-body {
+                margin-bottom: 40px;
             }
         }
 
